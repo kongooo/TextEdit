@@ -1,3 +1,9 @@
+document.querySelector("body").style.width = screen.width + "px";
+let arrows = document.querySelectorAll(".packup");
+for (let i = 0; i < arrows.length; i++) {
+    arrows[i].style.left = screen.width - 66 + "px";
+}
+
 let global_wrapper, global_tool_wrapper;
 
 let tool = document.getElementsByClassName("tool")[0];

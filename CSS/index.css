@@ -2,7 +2,6 @@ body {
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 1536px;
 }
 
 .top {
@@ -693,7 +692,6 @@ ol li {
     height: 22px;
     width: 22px;
     position: relative;
-    left: 1470px;
     top: -10px;
     box-sizing: border-box;
     padding: 0 3px;
