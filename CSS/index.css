@@ -183,7 +183,7 @@ body {
 
 .main {
     width: inherit;
-    height: 1426px;
+    height: 1588px;
     background-color: #f8f8f8;
     z-index: -1;
     position: absolute;
@@ -195,7 +195,7 @@ body {
     background-color: #f8f8f8;
     width: 100%;
     position: relative;
-    top: 1426px;
+    top: 1588px;
     z-index: -2;
 }
 
@@ -210,6 +210,7 @@ body {
     position: relative;
     z-index: 0;
     transition: transform 0.5s ease;
+    padding: 5% 5%;
 }
 
 .container.container-up {
@@ -753,4 +754,13 @@ ol li {
     top: -10px;
     left: -8px;
     border-top-color: white;
+}
+
+.edit-area {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-style: bold;
+    ;
 }
